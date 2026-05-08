@@ -1,0 +1,11 @@
+{
+  "brand": { "name": "Sadeen", "tagline": "Learn. Explore. Launch." },
+  "nav": {
+    "dashboard": "Dashboard",
+    "courses": "Courses",
+    "leaderboard": "Leaderboard",
+    "profile": "Profile",
+    "signout": "Sign out",
+    "back": "Back"
+  }
+}

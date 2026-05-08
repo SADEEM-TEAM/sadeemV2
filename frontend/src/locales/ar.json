@@ -1,0 +1,129 @@
+{
+  "brand": {
+    "name": "سديم",
+    "tagline": "تعلّم. اكتشف. انطلق."
+  },
+  "nav": {
+    "dashboard": "لوحة الانطلاق",
+    "courses": "المواد",
+    "leaderboard": "لوحة المتميّزين",
+    "profile": "الملف الشخصي",
+    "signout": "تسجيل الخروج",
+    "back": "رجوع"
+  },
+  "landing": {
+    "hero_title": "تعلّم بأسلوب جديد",
+    "hero_sub": "منصة تعليمية ممتعة تحاكي روح الجزائر، من تاريخها وعلومها إلى مهارات المستقبل.",
+    "cta_start": "ابدأ الآن",
+    "cta_login": "لديك حساب بالفعل؟"
+  },
+  "role": {
+    "title": "اختر دورك",
+    "sub": "هذا يساعدنا في تخصيص تجربتك",
+    "student": "تلميذ",
+    "student_desc": "أتعلّم وألعب وأكسب نجوماً.",
+    "teacher": "أستاذ",
+    "teacher_desc": "أتابع تقدّم تلاميذي وأرشدهم.",
+    "parent": "وليّ أمر",
+    "parent_desc": "أتابع تقدّم أبنائي وأشجّعهم على التعلّم.",
+    "admin_note": "حساب الإدارة للمؤسّسات: عبر دعوة فقط."
+  },
+  "auth": {
+    "login_title": "تسجيل الدخول",
+    "register_title": "إنشاء حساب جديد",
+    "email": "البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "username": "الاسم الكامل",
+    "confirm_password": "تأكيد كلمة المرور",
+    "have_account": "لديّ حساب",
+    "no_account": "ليس لديّ حساب",
+    "submit_login": "تسجيل الدخول",
+    "submit_register": "إنشاء الحساب",
+    "error_generic": "حدث خطأ، حاول مجدّداً.",
+    "error_credentials": "بيانات الدخول غير صحيحة."
+  },
+  "onboarding": {
+    "title": "نتعرّف عليك",
+    "step": "الخطوة {{n}} من {{total}}",
+    "name_q": "ما اسمك؟",
+    "age_q": "كم عمرك؟",
+    "grade_q": "ما هو مستواك الدراسي؟",
+    "establishment_q": "ما اسم مؤسّستك؟",
+    "establishment_optional": "اختياري",
+    "child_age_q": "كم عمر طفلك؟",
+    "child_grade_q": "ما هو المستوى الدراسي لطفلك؟",
+    "child_name_q": "ما اسم طفلك؟",
+    "interests_q": "ما هي المواد التي تهمّك أكثر؟",
+    "interests_hint": "يمكنك اختيار أكثر من واحدة",
+    "topic_history": "تاريخ الجزائر",
+    "topic_math": "الرياضيات",
+    "topic_coding": "البرمجة",
+    "source_q": "كيف سمعت بسديم؟",
+    "source_friend": "صديق",
+    "source_social": "وسائل التواصل",
+    "source_school": "المدرسة",
+    "source_other": "أخرى",
+    "mascot_q": "اختر رفيقك في الرحلة",
+    "mascot_blue": "ساديم الأزرق",
+    "mascot_pink": "ساديما الوردية",
+    "goal_q": "كم نقطة خبرة تريد كسبها يومياً؟",
+    "goal_chill": "هادئ — 15",
+    "goal_normal": "عادي — 30",
+    "goal_intense": "مكثّف — 60",
+    "next": "التالي",
+    "prev": "السابق",
+    "finish": "ابدأ المغامرة"
+  },
+  "dashboard": {
+    "welcome_back": "أهلاً بك من جديد، {{name}}",
+    "welcome_first": "أهلاً بك في سديم!",
+    "your_topics": "موادك",
+    "continue": "أكمل",
+    "start": "ابدأ",
+    "roadmap_preview": "خريطة الرحلة",
+    "view_full_roadmap": "عرض الخريطة الكاملة"
+  },
+  "roadmap": {
+    "title_history": "تاريخ الجزائر",
+    "title_math": "الرياضيات",
+    "title_coding": "البرمجة",
+    "lesson_locked": "أكمل الدرس السابق لفتحه",
+    "lesson_play": "ابدأ الدرس",
+    "lesson_review": "راجع الدرس",
+    "lesson_continue": "تابع"
+  },
+  "lesson": {
+    "read_first": "اقرأ بتركيز ثم ابدأ التحديات.",
+    "next_block": "التالي",
+    "start_games": "ابدأ التحديات",
+    "min_dwell": "اقرأ بتأنٍّ، الزّر سيُفتح تلقائياً.",
+    "progress_label": "تقدّم القراءة"
+  },
+  "game": {
+    "submit": "تأكيد",
+    "skip": "تخطّي",
+    "next": "التالي",
+    "correct": "إجابة صحيحة!",
+    "wrong": "إجابة خاطئة، حاول مجدّداً.",
+    "instruction_quiz": "اختر الإجابة الصحيحة.",
+    "instruction_flashcard": "اضغط على البطاقة لقلبها."
+  },
+  "celebrate": {
+    "title": "أحسنت!",
+    "earned": "كسبت {{xp}} نقطة خبرة",
+    "back_to_roadmap": "العودة إلى الخريطة",
+    "next_lesson": "الدرس التالي"
+  },
+  "footer": {
+    "b2b_title": "للمؤسّسات والشّركات",
+    "b2b_sub": "تبحث عن حلّ تعليميّ مخصّص لمؤسّستك أو شركتك؟ تواصل معنا.",
+    "contact_us": "تواصل معنا",
+    "email_us": "راسِلنا",
+    "made_in": "صُنع بحبّ في الجزائر"
+  },
+  "common": {
+    "loading": "جارٍ التحميل…",
+    "retry": "إعادة المحاولة",
+    "saved": "تمّ الحفظ"
+  }
+}
