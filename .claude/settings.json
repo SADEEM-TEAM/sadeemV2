@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"/F:/my doss/TRAVAIL/SADEEM MOSTAGANEM\" -type f -name \"*.ts\" -o -name \"*.tsx\" | head -20)",
+      "Read(//F:/my doss/TRAVAIL/**)",
+      "Bash(xargs grep -l \"admin\\\\|teacher\\\\|parent\\\\|/admin\\\\|/teacher\\\\|/parent\")",
+      "Bash(git count-objects *)",
+      "Bash(git fetch *)",
+      "Bash(git rev-list *)",
+      "Bash(git cat-file *)",
+      "Bash(awk '$1==\"blob\" && $3 > 3000000 {print $3/1048576 \"MB\", $4}')",
+      "Bash(git ls-remote *)",
+      "Bash(mkdir -p \"/f/my doss/TRAVAIL/context sadeem belabes\")",
+      "Read(//f/my doss/TRAVAIL//**)",
+      "Bash(curl -s \"https://api.github.com/repos/alirezarezvani/claude-skills/git/trees/main?recursive=1\")",
+      "Read(//tmp/**)",
+      "Bash(grep -iE 'pitch|invest|vc|fund|market|research|story|narrat|persuas|speech|present|deck|board|financ|revenue|business-model|gtm|go-to-market|competit|tam|customer|edtech|education|valuation|econom|unit|forecast|slide|angel|seed|founder|startup|deep-research|analy' /tmp/skills.txt)",
+      "Bash(grep -E '\\\\.\\(md|py|json|txt|yaml|yml\\)$')",
+      "Bash(py --version)",
+      "Bash(python .claude/skills/market-research/scripts/market_sizer.py --sample)",
+      "Bash(py .claude/skills/market-research/scripts/market_sizer.py --sample)",
+      "Bash(npx --version)",
+      "Bash(grep -E '\\\\.env$|\\\\.mcp\\\\.json$')",
+      "WebFetch(domain:docs.tavily.com)",
+      "WebSearch"
+    ],
+    "additionalDirectories": [
+      "F:\\my doss\\TRAVAIL\\context sadeem belabes"
+    ]
+  }
+}

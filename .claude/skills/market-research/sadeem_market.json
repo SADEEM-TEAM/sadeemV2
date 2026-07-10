@@ -1,0 +1,14 @@
+{
+  "market_name": "Soutien scolaire numerique B2C Algerie (DZD/an) - definitions alignees",
+  "top_down": {
+    "total_market_value": 28875000000,
+    "serviceable_fraction": 0.55,
+    "reachable_share": 0.03
+  },
+  "bottoms_up": {
+    "total_potential_customers": 5500000,
+    "annual_price": 4800,
+    "serviceable_fraction": 0.55,
+    "realistic_adoption": 0.03
+  }
+}
