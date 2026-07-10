@@ -1,5 +1,4 @@
-# سديم — Sadeen
-
+# سديم — Sadeem
 Educational gamified platform for Algerian youth.
 Two top-level workspaces:
 
