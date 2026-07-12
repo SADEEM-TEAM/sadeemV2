@@ -15,6 +15,7 @@ import { DashboardScreen } from './screens/student/DashboardScreen';
 import { RoadmapScreen } from './screens/student/RoadmapScreen';
 import { LessonScreen } from './screens/student/LessonScreen';
 import { GameHostScreen } from './screens/student/GameHostScreen';
+import { DevGameScreen } from './screens/student/DevGameScreen';
 import { CelebrationScreen } from './screens/student/CelebrationScreen';
 import { LeaderboardScreen } from './screens/student/LeaderboardScreen';
 
@@ -76,6 +77,7 @@ export const router = createBrowserRouter([
               { path: 'courses/:slug', Component: RoadmapScreen },
               { path: 'lessons/:id', Component: LessonScreen },
               { path: 'lessons/:id/play', Component: GameHostScreen },
+              { path: 'dev/game/:type', Component: DevGameScreen },
               { path: 'celebrate', Component: CelebrationScreen },
               { path: 'leaderboard', Component: LeaderboardScreen },
               { path: 'messages', Component: MessagesScreen },

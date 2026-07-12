@@ -1,0 +1,18 @@
+# Netlify — configuration de déploiement Sadeem
+# Le projet est un monorepo : le frontend est dans /frontend.
+# La démo tourne 100% en localStorage (mode mock), aucun backend requis.
+
+[build]
+  base = "frontend"
+  command = "npm install && npm run build"
+  publish = "frontend/dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# SPA fallback : toutes les routes non-fichiers sont servies par index.html
+# (sinon un refresh sur /app ou /login renvoie une 404).
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

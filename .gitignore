@@ -38,6 +38,16 @@ dist/
 build/
 out/
 coverage/
+.vite/
+**/.vite/
+.netlify/
+
+# Env & secrets (keep only .env.example)
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
 
 # Logs
 logs/

@@ -5,6 +5,7 @@ import { LogOut, Heart, Flame, Star } from 'lucide-react';
 
 import { useAuth } from '@/store/auth.store';
 import { BrandLogo } from '../components/ui/BrandLogo';
+import { DevGameMenu } from '../components/DevGameMenu';
 import { useScrollPast } from '../hooks/useScrollPast';
 import type { NavItem } from './navConfig';
 
@@ -26,6 +27,9 @@ export function AppLayout({ nav, showStudentStats = false }: AppLayoutProps) {
 
   return (
     <div className="relative min-h-screen w-full text-white" dir="rtl">
+      {/* Discreet dev launcher — jump into any mini-game (presentation mode) */}
+      <DevGameMenu />
+
       {/* Desktop floating vertical nav pill */}
       <aside
         onMouseEnter={() => setHovered(true)}
